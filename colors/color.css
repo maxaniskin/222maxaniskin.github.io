@@ -41,14 +41,18 @@ a.blog-link,
 .link-tag a:hover,
 .block:hover{
 }
-
+h3{font-size: 5rem;}
 h6,h2,h3,h4{font-weight: 900;
 	color:#b6b6b6;text-shadow: 2px 2px 3px rgb(10, 10, 10);-webkit-text-stroke: 0.4px grey;font-family: Pelagy;
 }
 h4{font-size: 1.6rem;}
 
 
-
+@media only screen and (max-width: 998px) {
+  h3 {font-size: 1.8rem
+  ;
+  }
+}
 
 
 
